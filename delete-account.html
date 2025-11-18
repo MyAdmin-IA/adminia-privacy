@@ -1,54 +1,133 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<title>Suppression du compte – AdminIA</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
-    line-height: 1.6;
-}
-h1 { color: #003b8b; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suppression du compte – MyAdmin IA</title>
+    <style>
+        :root {
+            --bleu-primaire: #2E5BFF;
+            --bleu-secondaire: #87CEEB;
+            --blanc: #FFFFFF;
+            --gris-texte: #333333;
+            --ombre: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--gris-texte);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--blanc);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: var(--bleu-primaire);
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: var(--bleu-primaire);
+            font-size: 22px;
+            margin-top: 30px;
+            border-bottom: 2px solid var(--bleu-secondaire);
+            padding-bottom: 10px;
+        }
+
+        ol, ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background-color: var(--bleu-secondaire);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid var(--bleu-primaire);
+            margin: 20px 0;
+        }
+
+        .email-link {
+            color: var(--bleu-primaire);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: var(--gris-texte);
+            font-size: 14px;
+            padding: 20px;
+            border-top: 1px solid var(--ombre);
+        }
+
+        .attention {
+            color: #d32f2f;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <img src="https://mistralaichatupprodswe.blob.core.windows.net/chat-images/97/b5/26/97b52611-76ed-4537-98fe-d516d1628e6e/b90ae2e2-bfa8-48b8-859f-b2f95a4ca4c1/10829e6e-8784-4faa-bf91-6d4d1021e976?sv=2025-01-05&st=2025-11-18T17%3A31%3A27Z&se=2025-11-18T18%3A31%3A27Z&sr=b&sp=rade&sig=8TfLzRX4XWGWwm3V0RXjF94GnkSMzHX0deuHssFah6k%3D" alt="Logo MyAdmin IA" class="logo">
+        <h1>Suppression du compte – MyAdmin IA</h1>
+    </header>
 
-<h1>Suppression du compte AdminIA</h1>
+    <p>Vous pouvez demander la suppression définitive de votre compte et de toutes les données associées via la procédure ci-dessous. Conformément au <strong>RGPD</strong>, cette suppression est irréversible.</p>
 
-<p>Vous pouvez demander la suppression définitive de votre compte et de toutes les données associées via la procédure ci-dessous.</p>
+    <h2>Comment supprimer votre compte ?</h2>
+    <p>Depuis l'application <strong>MyAdmin IA</strong> :</p>
+    <ol>
+        <li>Ouvrez l’application <strong>MyAdmin IA</strong>.</li>
+        <li>Accédez au menu <strong>Profil</strong> (icône en bas à droite).</li>
+        <li>Ouvrez <strong>Paramètres</strong> (⚙️).</li>
+        <li>Cliquez sur <strong>Supprimer mon compte</strong>.</li>
+    </ol>
 
-<h2>Comment supprimer votre compte ?</h2>
-<p>Depuis l'application AdminIA :</p>
+    <div class="highlight">
+        <p class="attention">⚠️ Attention :</p>
+        <p>Cette action est <strong>irréversible</strong>. Toutes vos données stockées seront définitivement supprimées :</p>
+        <ul>
+            <li>Données du compte (e-mail, profil)</li>
+            <li>Documents importés et analysés</li>
+            <li>Notes et rappels</li>
+            <li>Historique des analyses IA</li>
+        </ul>
+    </div>
 
-<ol>
-  <li>Ouvrez l’application AdminIA.</li>
-  <li>Accédez au menu <strong>Profil</strong>.</li>
-  <li>Ouvrez <strong>Paramètres</strong>.</li>
-  <li>Cliquez sur <strong>Supprimer mon compte</strong>.</li>
-</ol>
+    <h2>Suppression manuelle via e-mail</h2>
+    <p>Vous pouvez également demander la suppression de votre compte en envoyant un e-mail à :</p>
+    <p><a href="mailto:support@mail.myadminia.com" class="email-link">support@mail.myadminia.com</a></p>
+    <p>Indiquez simplement : <strong>“Je souhaite supprimer mon compte MyAdmin IA”</strong>.</p>
 
-<p>Cette action est irréversible. Toutes vos données stockées seront définitivement supprimées :</p>
+    <h2>Délais de traitement</h2>
+    <p>Conformément au <strong>RGPD</strong>, la suppression complète des données est effectuée sous un délai maximum de <strong>30 jours</strong> (hors obligations légales de conservation). Vous recevrez un e-mail de confirmation une fois la suppression terminée.</p>
 
-<ul>
-  <li>Données du compte (email, profil)</li>
-  <li>Documents importés</li>
-  <li>Notes</li>
-  <li>Historique des analyses IA</li>
-</ul>
-
-<h2>Suppression manuelle via email</h2>
-<p>Vous pouvez également demander la suppression de votre compte en envoyant un email à :</p>
-
-<p><strong>support@myadminia.com</strong></p>
-
-<p>Indiquez simplement : “Je souhaite supprimer mon compte AdminIA”.</p>
-
-<h2>Délais de traitement</h2>
-<p>La suppression complète des données est effectuée sous un délai maximum de 7 jours.</p>
-
+    <footer>
+        <p>© 2025 MyAdmin IA – Tous droits réservés | <a href="mailto:contact@mail.myadminia.com" class="email-link">Contact</a> | <a href="#" class="email-link">Politique de confidentialité</a> | <a href="#" class="email-link">Conditions Générales</a></p>
+    </footer>
 </body>
 </html>
